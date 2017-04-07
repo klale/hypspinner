@@ -1,0 +1,12 @@
+{
+    "name": "HypSpinner",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "matches": [
+          "http://*/*",
+        ],
+        "css": ["hypspinner.css"],
+        "run_at": "document_end"
+    }]
+}
